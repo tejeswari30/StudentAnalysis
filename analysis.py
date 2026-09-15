@@ -6,6 +6,7 @@ import plotly.express as px
 
 
 def load_and_prepare_data(filepath):
+    
     # Load the CSV file into a Pandas DataFrame
     df = pd.read_csv(filepath)
 
