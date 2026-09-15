@@ -53,6 +53,7 @@ def load_and_prepare_data(filepath):
 
 
 def calculate_statistics(df):
+    
     # Select only non-dropout students for academic statistics
     non_dropout_df = df[df["G3"] != 0]
 
