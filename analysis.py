@@ -218,6 +218,7 @@ def print_summary(stats):
 
 # Run the complete analysis only when this file is executed directly
 if __name__ == "__main__":
+    
     # Load and prepare the student performance dataset
     df = load_and_prepare_data("data/Maths.csv")
 
