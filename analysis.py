@@ -100,6 +100,7 @@ def calculate_statistics(df):
 
 
 def generate_static_charts(df):
+    
     # Create the output folder if it does not already exist
     os.makedirs("output", exist_ok=True)
 
