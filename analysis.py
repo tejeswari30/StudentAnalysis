@@ -153,6 +153,7 @@ def generate_static_charts(df):
 
 
 def generate_interactive_charts(df):
+    
     # Create an interactive scatter plot showing study time vs final grade
     fig = px.scatter(
         df,
