@@ -126,6 +126,7 @@ def get_summary():
 # Endpoint 2: Return all at-risk students, sorted by lowest G3 first
 @app.get("/at-risk")
 def get_at_risk_students():
+    
     # Filter students with G3 between 1 and 9
     # and sort by G3 ascending
     at_risk_df = (
