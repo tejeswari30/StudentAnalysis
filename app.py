@@ -73,6 +73,7 @@ total_students = len(df)
 
 # Check that at least one non-dropout student exists
 if len(non_dropout_df) > 0:
+    
     # Calculate average G3 excluding dropout students
     class_average_g3 = round(
         non_dropout_df["G3"].mean(),
