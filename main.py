@@ -75,6 +75,7 @@ df = load_data()
 # Endpoint 1: Return overall academic performance summary
 @app.get("/summary")
 def get_summary():
+    
     # Select only students who are not dropouts
     non_dropout_df = df[df["G3"] != 0]
 
