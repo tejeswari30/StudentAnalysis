@@ -88,6 +88,7 @@ if len(non_dropout_df) > 0:
         1
     )
 else:
+    
     # Handle the edge case where all students are dropouts
     class_average_g3 = 0.0
     pass_rate = 0.0
