@@ -14,6 +14,7 @@ app = FastAPI(
 
 
 def load_data():
+    
     # Load the student performance dataset
     df = pd.read_csv("data/Maths.csv")
 
