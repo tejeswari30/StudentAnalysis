@@ -191,6 +191,7 @@ result_filter = st.selectbox(
 if result_filter == "All":
     filtered_df = df
 else:
+    
     # Filter students based on the selected result
     filtered_df = df[
         df["Result"] == result_filter
