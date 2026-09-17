@@ -98,6 +98,7 @@ def get_summary():
             2
         )
     else:
+        
         # Handle the edge case where all students are dropouts
         class_average_g3 = 0.0
         pass_rate_percent = 0.0
