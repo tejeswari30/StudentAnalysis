@@ -14,6 +14,7 @@ st.set_page_config(
 # Load and prepare the student performance dataset
 @st.cache_data
 def load_data():
+    
     # Load Maths.csv from the data folder
     df = pd.read_csv("data/Maths.csv")
 
