@@ -10,7 +10,6 @@ st.set_page_config(
     page_icon="🎓"
 )
 
-
 # Load and prepare the student performance dataset
 @st.cache_data
 def load_data():
