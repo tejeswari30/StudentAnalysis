@@ -99,7 +99,6 @@ def calculate_statistics(df):
         "correlation_matrix": correlation_matrix
     }
 
-
 def generate_static_charts(df):
     
     # Create the output folder if it does not already exist
