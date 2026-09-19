@@ -57,7 +57,6 @@ def load_data():
     # Return the prepared DataFrame
     return df
 
-
 # Load the prepared student data
 df = load_data()
 
