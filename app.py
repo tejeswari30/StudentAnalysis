@@ -177,7 +177,6 @@ with right_col:
         use_container_width=True
     )
 
-
 # Display the Student Analysis Table section
 st.subheader("🚨 Student Analysis Table")
 
