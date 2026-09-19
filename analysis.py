@@ -197,6 +197,7 @@ def generate_interactive_charts(df):
 
 
 def print_summary(stats):
+    
     # Print a separator line
     print("=" * 48)
 
