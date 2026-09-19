@@ -265,7 +265,6 @@ def read_root():
         "version": "1.0.0"
     }
 
-
 # Run the FastAPI application when this file is executed directly
 if __name__ == "__main__":
     uvicorn.run(
