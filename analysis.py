@@ -70,6 +70,7 @@ def calculate_statistics(df):
             np.sum(non_dropout_df["G3"] >= 10)
             / len(non_dropout_df)
         ) * 100
+        
     else:
         pass_rate = 0
 
