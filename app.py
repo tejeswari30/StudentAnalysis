@@ -87,6 +87,7 @@ if len(non_dropout_df) > 0:
         ) * 100,
         1
     )
+    
 else:
     
     # Handle the edge case where all students are dropouts
